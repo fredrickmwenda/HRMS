@@ -1,10 +1,10 @@
-<div id="projectModal" class="modal fade" role="dialog">
+<div id="projectModal" class="modal fade bs-example-modal-center" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
 
             <div class="modal-header">
                 <h5 id="exampleModalLabel" class="modal-title">{{__('Add Project')}}</h5>
-                <button type="button" data-dismiss="modal" id="close" aria-label="Close" class="close"><span
+                <button type="button" data-bs-dismiss="modal" id="close" aria-label="Close" class="btn-close"><span
                             aria-hidden="true">×</span></button>
             </div>
 

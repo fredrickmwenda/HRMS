@@ -1,10 +1,10 @@
-<div id="trainingModal" class="modal fade" role="dialog">
+<div id="trainingModal" class="modal fade bs-example-modal-center" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
 
             <div class="modal-header">
                 <h5 id="exampleModalLabel" class="modal-title"><?php echo e(__('Add Training')); ?></h5>
-                <button type="button" data-dismiss="modal"  aria-label="Close" class="close"><span
+                <button type="button" data-bs-dismiss="modal"  aria-label="Close" class="btn-close"><span
                             aria-hidden="true">×</span></button>
             </div>
 
