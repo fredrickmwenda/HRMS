@@ -5,7 +5,7 @@ aria-hidden="true">
    <div class="modal-content">
        <div class="modal-header">
            <h4 class="modal-title" id="myModalLabel">{{__('Payment Info')}}--- <span id="payment_month_year_show"></span></h4>
-           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
        </div>
        <div class="modal-body">
            <span id="form_result"></span>

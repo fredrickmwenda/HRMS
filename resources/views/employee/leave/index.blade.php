@@ -20,7 +20,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="myModalLabel">{{__('Leave Info')}}</h4>
-                <button type="button" class="leave-close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <button type="button" class="leave-close btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
             </div>
             <div class="modal-body">
 
@@ -108,7 +108,7 @@
             </div>
         </div>
         <div class="modal-footer">
-            <button type="button" class="btn btn-default " data-dismiss="modal">{{trans('file.Close')}}</button>
+            <button type="button" class="btn btn-default " data-bs-dismiss="modal">{{trans('file.Close')}}</button>
 
         </div>
     </div>

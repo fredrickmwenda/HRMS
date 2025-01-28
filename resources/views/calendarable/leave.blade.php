@@ -4,8 +4,7 @@
 
             <div class="modal-header">
                 <h5 id="exampleModalLabel" class="modal-title">{{__('Add Leave')}}</h5>
-                <button type="button" data-bs-dismiss="modal" id="close" aria-label="Close" class="close"><span
-                            aria-hidden="true">×</span></button>
+                <button type="button" data-bs-dismiss="modal" id="close" aria-label="Close" class="btn-close"></button>
             </div>
 
             <div class="modal-body">
@@ -118,7 +117,7 @@
                         <div class="container">
                             <div class="form-group" align="center">
                                 <input type="hidden" name="diff_date_hidden" id="diff_date_hidden"/>
-                                <input type="submit" name="action_button" class="btn btn-warning" value={{trans('file.Add')}} />
+                                <input type="submit" name="action_button" class="btn btn-primary" value={{trans('file.Add')}} />
                             </div>
                         </div>
                     </div>

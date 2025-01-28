@@ -116,8 +116,8 @@
 
                     <div class="modal-header">
                         <h5 id="exampleModalLabel" class="modal-title">{{__('Add Employee')}}</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                            
                         </button>
                     </div>
 
@@ -287,7 +287,7 @@
                                     <div class="form-group" align="center">
                                         <input type="hidden" name="action" id="action"/>
                                         <input type="hidden" name="hidden_id" id="hidden_id"/>
-                                        <input type="submit" name="action_button" id="action_button" class="btn btn-warning w-100" value="{{trans('file.Add')}}" />
+                                        <input type="submit" name="action_button" id="action_button" class="btn btn-primary w-100" value="{{trans('file.Add')}}" />
                                     </div>
                                 </div>
                             </div>
@@ -305,7 +305,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h2 class="modal-title">{{trans('file.Confirmation')}}</h2>
-                        <button type="button" class="employee-close" data-dismiss="modal">&times;</button>
+                        <button type="button" class="employee-close" data-bs-dismiss="modal">&times;</button>
                     </div>
                     <div class="modal-body">
                         <h4 align="center" style="margin:0;">{{__('Are you sure you want to remove this data?')}}</h4>
@@ -314,7 +314,7 @@
                         <button type="button" name="ok_button" id="ok_button"
                                 class="btn btn-danger">{{trans('file.OK')}}</button>
                         <button type="button" class="close btn-default"
-                                data-dismiss="modal">{{trans('file.Cancel')}}</button>
+                                data-bs-dismiss="modal">{{trans('file.Cancel')}}</button>
                     </div>
                 </div>
             </div>

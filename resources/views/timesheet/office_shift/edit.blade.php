@@ -156,7 +156,7 @@
                                         <div class="form-group" align="center">
                                             <input type="hidden" name="hidden_id" id="hidden_id" value="{{$office_shift->id}}"/>
                                             <input type="submit" name="action_button" id="action_button"
-                                                   class="btn btn-warning btn-block"
+                                                   class="btn btn-primary btn-block"
                                                    value={{trans('file.Update')}} />
                                         </div>
                                     </div>

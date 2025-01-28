@@ -456,7 +456,7 @@
         })(jQuery);
 
     </script>
-    <section>
+   <div class="page-content">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-3 mt-3">
@@ -514,7 +514,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
 
 <div class="modal fade" id="details_model" tabindex="-1" role="dialog" aria-labelledby="basicModal"
@@ -524,7 +524,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="myModalLabel"><span id="model_name"></span> {{trans('file.Info')}}</h4>
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
             </div>
             <div class="modal-body">
 
@@ -546,7 +546,7 @@
             </div>
         </div>
         <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">{{trans('file.Close')}}</button>
+            <button type="button" class="btn btn-light" data-bs-dismiss="modal">{{trans('file.Close')}}</button>
         </div>
     </div>
 </div>

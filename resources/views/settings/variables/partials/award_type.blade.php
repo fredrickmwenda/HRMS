@@ -36,8 +36,7 @@
             <div class="modal-header">
                 <h5 id="AwardModalLabel" class="modal-title">{{trans('file.Edit')}}</h5>
 
-                <button type="button" data-dismiss="modal" id="award_close" aria-label="Close" class="close"><span
-                            aria-hidden="true">×</span></button>
+                <button type="button" data-bs-dismiss="modal" id="award_close" aria-label="Close" class="close"></button>
             </div>
             <span class="award_result_edit"></span>
 

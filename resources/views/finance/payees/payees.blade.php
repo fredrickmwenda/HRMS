@@ -41,7 +41,7 @@
                     <div class="modal-header">
                         <h5 id="PayeesModalLabel" class="modal-title">{{trans('file.Edit')}}</h5>
 
-                        <button type="button" data-dismiss="modal" id="payees_close" aria-label="Close" class="close"><span
+                        <button type="button" data-bs-dismiss="modal" id="payees_close" aria-label="Close" class="btn-close"><span
                                     aria-hidden="true">×</span></button>
                     </div>
                     <span class="payees_result_edit"></span>

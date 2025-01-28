@@ -64,7 +64,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 id="exampleModalLabel" class="modal-title">{{__('Apply For This Job')}}</h5>
-                    <button type="button" data-dismiss="modal" id="close" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+                    <button type="button" data-bs-dismiss="modal" id="close" aria-label="Close" class="btn-close"></button>
                 </div>
 
                 <span id="form_result"></span>
@@ -133,7 +133,7 @@
                         </div>
 
                     </div>
-                    <input type="submit" name="action_button" id="action_button" class="btn btn-warning btn-block btn-lg" value="{{trans('file.Apply')}}"/>
+                    <input type="submit" name="action_button" id="action_button" class="btn btn-primary btn-block btn-lg" value="{{trans('file.Apply')}}"/>
                 </form>
             </div>
         </div>

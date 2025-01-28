@@ -154,7 +154,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-light" data-dismiss="modal">{{trans('file.Close')}}</button>
+                <button type="button" class="btn btn-light" data-bs-dismiss="modal">{{trans('file.Close')}}</button>
             </div>
         </div>
     </div>
@@ -174,7 +174,7 @@
                     <button type="button" name="ok_button" id="ok_button" class="btn btn-primary">{{trans('file.OK')}}'
                     </button>
                     <button type="button" class="close btn-light"
-                            data-dismiss="modal">{{trans('file.Cancel')}}</button>
+                            data-bs-dismiss="modal">{{trans('file.Cancel')}}</button>
                 </div>
             </div>
         </div>

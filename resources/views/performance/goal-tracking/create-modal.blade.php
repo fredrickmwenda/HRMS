@@ -4,8 +4,8 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="createModalLabel"><b>@lang('file.Add New Goal Tracking')</b></h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+            
           </button>
         </div>
         <div class="modal-body">
@@ -83,7 +83,7 @@
             <div class="col-sm-1"></div>
             <div class="col-sm-3">
                 <button type="button" class="btn btn-primary" id="save-button">@lang('file.Save')</button>
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">@lang('file.Close')</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">@lang('file.Close')</button>
             </div>
         </div>
 

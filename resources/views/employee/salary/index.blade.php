@@ -93,7 +93,7 @@
                         <div class="container mt-5px">
                             <span class="text-danger"></span> <br><br>
                             <div class="form-group">
-                                <input type="submit" class="btn btn-warning" value={{trans('file.Add')}} />
+                                <input type="submit" class="btn btn-primary" value={{trans('file.Add')}} />
                             </div>
                         </div>
                     </form>

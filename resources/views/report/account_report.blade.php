@@ -1,7 +1,7 @@
 @extends('layout.main')
 @section('content')
 
-    <section>
+<div class="page-content">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 ">
@@ -118,7 +118,7 @@
         </div>
 
 
-    </section>
+</div>
 
 
 

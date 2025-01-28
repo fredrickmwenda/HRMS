@@ -21,7 +21,7 @@ aria-hidden="true">
    <div class="modal-content">
        <div class="modal-header">
            <h4 class="modal-title" id="myModalLabel">{{__('Salary Info')}}</h4>
-           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
        </div>
        <div class="modal-body">
            <div class="row">
@@ -203,7 +203,7 @@ aria-hidden="true">
        </div>
    </div>
    <div class="modal-footer">
-       <button type="button" class="btn btn-default" data-dismiss="modal">{{trans('file.Close')}}</button>
+       <button type="button" class="btn btn-default" data-bs-dismiss="modal">{{trans('file.Close')}}</button>
    </div>
 </div>
 </div>

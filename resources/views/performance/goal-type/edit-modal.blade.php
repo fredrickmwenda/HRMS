@@ -15,7 +15,7 @@
 
             <div class="modal-footer">
                 <button type="button" class="btn btn-primary" id="update-button">@lang('file.Update')</button>
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">@lang('file.Close')</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">@lang('file.Close')</button>
             </div>
 
           </div>

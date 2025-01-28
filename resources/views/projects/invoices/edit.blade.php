@@ -1,7 +1,7 @@
 @extends('layout.main')
 @section('content')
 
-    <section>
+<div class="page-content">
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header with-border">
@@ -231,7 +231,7 @@
                 </div>
             </div>
         </div>
-    </section>
+</div>
 
 
 @endsection

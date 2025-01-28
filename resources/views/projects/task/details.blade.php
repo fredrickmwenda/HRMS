@@ -9,7 +9,7 @@
 
                     <div class="modal-header">
                         <h5 id="exampleModalLabel" class="modal-title">{{trans('file.Status')}}</h5>
-                        <button type="button" data-dismiss="modal" id="close" aria-label="Close" class="close"><span
+                        <button type="button" data-bs-dismiss="modal" id="close" aria-label="Close" class="close"><span
                                     aria-hidden="true">×</span></button>
                     </div>
 
@@ -35,7 +35,7 @@
                                         <input type="hidden" name="action" id="action"/>
                                         <input type="hidden" name="bug_status_id" id="bug_status_id"/>
                                         <input type="submit" name="action_button" id="action_button"
-                                               class="btn btn-warning"
+                                               class="btn btn-primary"
                                                value='{{trans('file.Update')}}'/>
                                     </div>
                                 </div>

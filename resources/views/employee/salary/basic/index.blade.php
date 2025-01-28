@@ -101,7 +101,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" id="ok_button" class="btn btn-primary basic-ok">{{trans('file.Yes')}}</button>
-                    <button type="button" class="basic_salary-close btn btn-light" data-dismiss="modal">{{trans('file.Cancel')}}</button>
+                    <button type="button" class="basic_salary-close btn btn-light" data-bs-dismiss="modal">{{trans('file.Cancel')}}</button>
                 </div>
             </div>
         </div>

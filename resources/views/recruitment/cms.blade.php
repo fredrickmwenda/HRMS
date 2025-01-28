@@ -2,7 +2,7 @@
 @section('content')
 
     @if(session()->has('message'))
-        <div class="alert alert-success alert-dismissible text-center"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>{{ session()->get('message') }}</div>
+        <div class="alert alert-success alert-dismissible text-center"><button type="button" class="close" data-dismiss="alert" aria-label="Close"></button>{{ session()->get('message') }}</div>
     @endif
 
     <!-- <section class="forms"> -->
@@ -18,7 +18,7 @@
                         <div class="card-body">
                             @if ($errors->any())
                                 @foreach ($errors->all() as $error)
-                                    <div class="alert alert-danger alert-dismissible text-center"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>{{$error}}</div>
+                                    <div class="alert alert-danger alert-dismissible text-center"><button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>{{$error}}</div>
                                 @endforeach
                             @endif
                             <p class="italic"><small>{{ __('Field labels marked with * are required input fields.') }}</small></p>

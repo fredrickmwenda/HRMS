@@ -33,8 +33,7 @@
             <div class="modal-header">
                 <h5 id="JobCategoryModalLabel" class="modal-title">{{trans('file.Edit')}}</h5>
 
-                <button type="button" data-dismiss="modal" id="job_category_close" aria-label="Close" class="close"><span
-                            aria-hidden="true">×</span></button>
+                <button type="button" data-bs-dismiss="modal" id="job_category_close" aria-label="Close" class="btn-close"></button>
             </div>
             <span class="job_category_result_edit"></span>
 

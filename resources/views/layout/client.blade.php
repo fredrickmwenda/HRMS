@@ -276,13 +276,21 @@
 
 <div id="content" class="page animate-bottom d-none">
     @yield('content')
-    <footer class="main-footer">
-        <div class="container-fluid">
-            <p>&copy; {{$general_settings->site_title ?? "no title"}}
-                | {{ __('Developed by')}} <a href="https://lion-coders.com" class="external">{{ __('LionCoders')}}</a>
-            </p>
+    <footer class="footer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <script>document.write(new Date().getFullYear())</script> ©  {{$general_settings->site_title ?? "no title"}}.
+            </div>
+            <div class="col-sm-6">
+                <div class="text-sm-end d-none d-sm-block">
+                    Design & Develop by <a href={{$general_settings->footer_link}} class="external text-decoration-underline">{{$general_settings->footer}}</a> || Version - {{env('VERSION')}}
+                    <!-- <a href="#!" class="text-decoration-underline">Themesbrand</a> -->
+                </div>
+            </div>
         </div>
-    </footer>
+    </div>
+</footer>
 </div>
 
 

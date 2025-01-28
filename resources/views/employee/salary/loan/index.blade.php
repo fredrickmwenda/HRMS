@@ -126,7 +126,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" name="ok_button"  class="btn btn-primary loan-ok">{{trans('file.OK')}}</button>
-                    <button type="button" class="loan-close btn-light" data-dismiss="modal">{{trans('file.Cancel')}}</button>
+                    <button type="button" class="loan-close btn-light" data-bs-dismiss="modal">{{trans('file.Cancel')}}</button>
                 </div>
             </div>
         </div>

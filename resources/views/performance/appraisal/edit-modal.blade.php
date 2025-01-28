@@ -4,8 +4,8 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="createModalLabel"><b>@lang('file.Edit Appraisal')</b></h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+            
           </button>
         </div>
         <div class="modal-body" id="edit-body">
@@ -145,7 +145,7 @@
         </div>
         <div class="modal-footer">
             <button type="button" class="btn btn-primary" id="update-button">@lang('file.Update')</button>
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">@lang('file.Close')</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">@lang('file.Close')</button>
         </div>
       </div>
     </div>

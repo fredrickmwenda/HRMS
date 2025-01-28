@@ -33,8 +33,7 @@
             <div class="modal-header">
                 <h5 id="StatusModalLabel" class="modal-title">{{trans('file.Edit')}}</h5>
 
-                <button type="button" data-dismiss="modal" id="status_close" aria-label="Close" class="close"><span
-                            aria-hidden="true">×</span></button>
+                <button type="button" data-bs-dismiss="modal" id="status_close" aria-label="Close" class="btn-close"></button>
             </div>
             <span class="status_result_edit"></span>
 

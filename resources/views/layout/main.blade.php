@@ -23,9 +23,6 @@
     <!-- App Css-->
     <link href="{{ asset('miniadmin/css/app.min.css')}}" id="app-style" rel="stylesheet" type="text/css" />
 
-    <!-- Bootstrap CSS-->
-    <!-- <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}"> -->
-    <!-- <noscript><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}"></noscript> -->
 
     <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="{{ asset('vendor/bootstrap/css/awesome-bootstrap-checkbox.css') }}">
     <noscript><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="{{ asset('vendor/bootstrap/css/awesome-bootstrap-checkbox.css') }}"></noscript>
@@ -116,16 +113,36 @@
         @include('calendarable.css')
     @endif
 
+    <style>
+        .fc-icon{
+            color:white;
+        } 
+
+    </style>
+ 
     <!-- <script type="text/javascript" src="{{ asset('vendor/jquery/jquery.min.js') }}"></script> -->
-    <script type="text/javascript" src="{{ asset('miniadmin/libs/jquery/jquery.min.js')}}"></script>
-    <script type="text/javascript" src="{{ asset('vendor/jquery/jquery-ui.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('vendor/jquery/bootstrap-datepicker.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('vendor/jquery-clockpicker/bootstrap-clockpicker.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('vendor/popper.js/umd/popper.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('miniadmin/libs/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-    <!-- <script type="text/javascript" src="{{ asset('vendor/bootstrap/js/bootstrap.min.js') }}"></script> -->
-    <script type="text/javascript" src="{{ asset('vendor/bootstrap-toggle/js/bootstrap-toggle.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('vendor/bootstrap/js/bootstrap-select.min.js') }}"></script>
+         <!-- <script type="text/javascript" src="{{ asset('vendor/bootstrap/js/bootstrap.min.js') }}"></script> -->
+
+<!-- jQuery -->
+<script type="text/javascript" src="{{ asset('miniadmin/libs/jquery/jquery.min.js') }}"></script>
+
+<!-- jQuery UI -->
+<script type="text/javascript" src="{{ asset('vendor/jquery/jquery-ui.min.js') }}"></script>
+
+<!-- Bootstrap Bundle (includes Popper.js) -->
+<script type="text/javascript" src="{{ asset('miniadmin/libs/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+
+<!-- Bootstrap Datepicker -->
+<script type="text/javascript" src="{{ asset('vendor/jquery/bootstrap-datepicker.min.js') }}"></script>
+
+<!-- Bootstrap Clockpicker -->
+<script type="text/javascript" src="{{ asset('vendor/jquery-clockpicker/bootstrap-clockpicker.min.js') }}"></script>
+
+<!-- Bootstrap Toggle -->
+<script type="text/javascript" src="{{ asset('vendor/bootstrap-toggle/js/bootstrap-toggle.min.js') }}"></script>
+
+<!-- Bootstrap Select -->
+<script type="text/javascript" src="{{ asset('vendor/bootstrap/js/bootstrap-select.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/grasp_mobile_progress_circle-1.0.0.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('vendor/chart.js/Chart.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('vendor/jquery-validation/jquery.validate.min.js') }}"></script>

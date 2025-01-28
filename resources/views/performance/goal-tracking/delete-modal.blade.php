@@ -9,8 +9,8 @@
             </div>
         </div>
         <div class="modal-footer">
-            <button type="button" class="btn btn-danger" id="deleteSubmit">@lang('file.Yes')</button>
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">@lang('file.Cancel')</button>
+            <button type="button" class="btn btn-primary" id="deleteSubmit">@lang('file.Yes')</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">@lang('file.Cancel')</button>
         </div>
       </div>
     </div>

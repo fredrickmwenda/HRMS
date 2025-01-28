@@ -1,7 +1,7 @@
 @extends('layout.main')
 @section('content')
 
-    <section>
+<div class="page-content">
         <div class="container-fluid">
             <div class="card">
                 <div class="card-body">
@@ -46,7 +46,7 @@
 
         </div>
 
-    </section>
+</div>
 
 
 @endsection

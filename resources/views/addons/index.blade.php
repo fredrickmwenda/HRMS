@@ -1,7 +1,7 @@
 @extends('layout.main')
 @section('content')
 
-<!-- <section class="container"> -->
+
 <div class="page-content">
     <div class="row">
         <div class="col-md-6">

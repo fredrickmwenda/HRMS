@@ -23,6 +23,6 @@
                name="profile_photo" placeholder="{{__('Upload',['key'=>trans('file.Photo')])}}">
     </div>
     <div class="form-group">
-        <input type="submit" name="action_button" id="action_button" class="btn btn-warning" value={{trans('file.Add')}}>
+        <input type="submit" name="action_button" id="action_button" class="btn btn-primary" value={{trans('file.Add')}}>
     </div>
 </form>

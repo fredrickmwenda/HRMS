@@ -75,7 +75,7 @@
 	      <div class="modal-header">
 	        <h5 class="modal-title" id="exampleModalLabel">How to find your purchase code</h5>
 	        <button type="button" class="btn-close" data-bs-ismiss="modal" aria-label="Close">
-	          <span aria-hidden="true">&times;</span>
+	          
 	        </button>
 	      </div>
 	      <div class="modal-body">

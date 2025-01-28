@@ -34,8 +34,7 @@
             <div class="modal-header">
                 <h5 id="TravelModalLabel" class="modal-title">{{trans('file.Edit')}}</h5>
 
-                <button type="button" data-dismiss="modal" id="travel_close" aria-label="Close" class="close"><span
-                            aria-hidden="true">×</span></button>
+                <button type="button" data-bs-dismiss="modal" id="travel_close" aria-label="Close" class="btn-close"></button>
             </div>
             <span class="travel_result_edit"></span>
 

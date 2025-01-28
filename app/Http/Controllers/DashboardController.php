@@ -435,9 +435,12 @@ class DashboardController extends Controller {
 	public function employeeDashboard(Request $request)
 	{
         // return EmployeeWorkExperience::where('employee_id', 52)->get();
+		// dd('here');
 
 		$user = auth()->user();
+		//dd($user);
 		$employee = Employee::with('department:id,department_name', 'officeShift')->findOrFail($user->id);
+		dd($employee);
 		$current_day_in = strtolower(Carbon::now()->format('l')) . '_in';
 		$current_day_out = strtolower(Carbon::now()->format('l')) . '_out';
 
@@ -528,6 +531,7 @@ class DashboardController extends Controller {
                 }
             }
         }
+		dd($ipCheck);
 		return view('dashboard.employee_dashboard', compact('user', 'employee', 'employee_attendance',
 			'shift_in', 'shift_out', 'shift_name', 'announcements',
 			'employee_award_count', 'holidays', 'leave_types', 'travel_types',

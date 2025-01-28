@@ -105,7 +105,7 @@
                                 <div class="form-group" align="center">
                                     <input type="hidden" name="action" id="action"/>
                                     <input type="hidden" name="hidden_id" id="hidden_id"/>
-                                    <input type="submit" name="action_button" id="action_button" class="btn btn-warning"
+                                    <input type="submit" name="action_button" id="action_button" class="btn btn-primary"
                                            value={{trans('file.Add')}} />
                                 </div>
                             </div>
@@ -125,7 +125,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title" id="myModalLabel">{{__('Promotion Info')}}</h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
                 </div>
                 <div class="modal-body">
 
@@ -172,7 +172,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-light" data-dismiss="modal">{{trans('file.Close')}}</button>
+                <button type="button" class="btn btn-light" data-bs-dismiss="modal">{{trans('file.Close')}}</button>
             </div>
         </div>
     </div>
@@ -183,7 +183,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h2 class="modal-title">{{trans('file.Confirmation')}}</h2>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
                     <h4 align="center">{{__('Are you sure you want to remove this data?')}}</h4>
@@ -191,8 +191,8 @@
                 <div class="modal-footer">
                     <button type="button" name="ok_button" id="ok_button" class="btn btn-primary">{{trans('file.OK')}}'
                     </button>
-                    <button type="button" class="close btn-light"
-                            data-dismiss="modal">{{trans('file.Cancel')}}</button>
+                    <button type="button" class="btn-close btn-light"
+                            data-bs-dismiss="modal">{{trans('file.Cancel')}}</button>
                 </div>
             </div>
         </div>

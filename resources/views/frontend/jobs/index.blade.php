@@ -9,7 +9,7 @@
         <h1 class="h4">{{__('We found')}} {{$job_posts->count()}} {{__('active jobs')}}</h1>
     </div>
 </section>
-<section>
+<div class="page-content">
     <!-- Recent Jobs -->
     <div class="container listings-container">
         <!-- Listing -->
@@ -85,6 +85,6 @@
             </div>
         </div>
     </div>
-</section>
+</div>
 
 @endsection

@@ -48,8 +48,7 @@
 
                 <div class="modal-header">
                     <h5 id="exampleModalLabel" class="modal-title">{{__('Add Assets')}}</h5>
-                    <button type="button" data-bs-dismiss="modal" id="close" aria-label="Close" class="btn-close"><i
-                                class="dripicons-cross"></i></button>
+                    <button type="button" data-bs-dismiss="modal" id="close" aria-label="Close" class="btn-close"></button>
                 </div>
 
                 <div class="modal-body">
@@ -174,7 +173,7 @@
                                 <div class="form-group" align="center">
                                     <input type="hidden" name="action" id="action"/>
                                     <input type="hidden" name="hidden_id" id="hidden_id"/>
-                                    <input type="submit" name="action_button" id="action_button" class="btn btn-warning"
+                                    <input type="submit" name="action_button" id="action_button" class="btn btn-primary"
                                            value={{trans('file.Add')}}>
                                 </div>
                             </div>
@@ -194,7 +193,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title" id="myModalLabel">{{__('Assets Info')}}</h4>
-                    <button type="button" class="close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
                 </div>
                 <div class="modal-body">
 
@@ -302,9 +301,9 @@
                     <h4 align="center">{{__('Are you sure you want to remove this data?')}}</h4>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" name="ok_button" id="ok_button" class="btn btn-danger">{{trans('file.OK')}}'
+                    <button type="button" name="ok_button" id="ok_button" class="btn btn-primary">{{trans('file.OK')}}'
                     </button>
-                    <button type="button" class="close btn-light"
+                    <button type="button" class="btn-close btn-light"
                             data-bs-dismiss="modal">{{trans('file.Cancel')}}</button>
                 </div>
             </div>

@@ -1,8 +1,8 @@
 @if (session()->has('message'))
     <div class="alert alert-{{session('type')}} alert-dismissible fade show text-center" role="alert">
         <strong>{{ session('message')}}</strong>
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+            
         </button>
     </div>
 @endif
@@ -13,8 +13,7 @@
         @foreach ($errors->all() as $error)
             <li>{{ $error }}</li>
         @endforeach
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
         </button>
     </div>
 @endif

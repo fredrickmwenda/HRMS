@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
     <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="<?php echo asset('vendor/bootstrap/css/bootstrap.min.css') ?>" type="text/css">
+    <link href="{{asset('minia/css/bootstrap.min.css')}}" id="bootstrap-style" rel="stylesheet" type="text/css" />
     <!-- Google fonts - Roboto -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
     <!-- theme stylesheet-->
@@ -22,7 +22,7 @@
 </head>
 <body>
 
-
+<div class="page login-page">
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -83,6 +83,7 @@
             </div>
         </div>
     </div>
+</div>
 </div>
 
 

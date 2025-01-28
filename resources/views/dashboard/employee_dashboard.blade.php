@@ -8,6 +8,7 @@
 
 
     <!-- Content -->
+     <div class="page-content">
         <div class="container-fluid">
             <div class="row">
 
@@ -313,7 +314,7 @@
                                         <input type="hidden" name="status" value="pending"/>
 
                                         <input type="hidden" name="diff_date_hidden" id="diff_date_hidden"/>
-                                        <input type="submit" name="action_button" class="btn btn-warning"
+                                        <input type="submit" name="action_button" class="btn btn-primary"
                                                value={{trans('file.Add')}} />
                                     </div>
                                 </div>
@@ -327,7 +328,7 @@
         </div>
 
         <div id="travelModal" class="modal fade" role="dialog">
-            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                 <div class="modal-content">
 
                     <div class="modal-header">
@@ -418,7 +419,7 @@
                                         <input type="hidden" name="employee_id" value="{{$employee->id}}"/>
                                         <input type="hidden" name="status" value="pending"/>
 
-                                        <input type="submit" name="action_button" class="btn btn-warning"
+                                        <input type="submit" name="action_button" class="btn btn-primary"
                                                value={{trans('file.Add')}} />
                                     </div>
                                 </div>
@@ -499,7 +500,7 @@
                                         {{-- <input type="hidden" name="ticket_status" value="pending"/> --}}
                                         <input type="hidden" name="ticket_status" value="open"/>
 
-                                        <input type="submit" name="action_button" class="btn btn-warning"
+                                        <input type="submit" name="action_button" class="btn btn-primary"
                                                value={{trans('file.Add')}} />
 
                                     </div>
@@ -513,6 +514,8 @@
         </div>
 
     </div>
+
+    
 
         <script>
             (function($) {
